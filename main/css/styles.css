@@ -1,0 +1,22 @@
+#title{
+ background-color: var(--pink);
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5; 
+    color: white;
+    padding-left: 36%;
+    padding-top: 25%;
+    margin: auto;
+
+
+}
+
+.container-fluid{
+ padding: 2% 13%;
+
+}
+.buti{
+padding-left: 35%;
+}
