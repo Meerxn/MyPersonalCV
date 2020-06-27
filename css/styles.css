@@ -35,6 +35,7 @@
    body{
        
    }
+   a { color: inherit; } 
    h3:hover{
        color: #cc0066;
    }
