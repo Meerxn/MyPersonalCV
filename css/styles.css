@@ -2,26 +2,82 @@
     background-color: #cc0066;
     color: white;
    }
+   #features{
+       padding: 7% 15%
+   
+       
+       
+   }
+   
    h1{
        font-family: 'Montserrat', sans-serif;
        size: 3rem;
        line-height: 1.5; 
        color: white;
-       padding-left: 36%;
+       padding-left: 27%;
        padding-top: 25%;
        margin: auto;
    
    
    }
+   p{
+       font-family: "Montserrat";
+       color: #8f8f8f;
+       /* text-align: center; */
+     
+   }
+   h3{
+       font-size: 2rem;
+       font-family: "Montserrat";
+       font-weight: bold;
+       /* text-align: center; */
+   }
    body{
        
    }
-   .feat{
-       padding-bottom: 35%;
-       padding-top: 5%;
+   h3:hover{
+       color: #cc0066;
+   }
+   .icon{
+      padding-bottom: 2rem;
+   }
+   .icon:hover{
+       color: black;
+   }
+   .column{
+       
+       /* padding-bottom: 12%;
+       margin-left: 0; */
+   }
+   .fa-laptop-code{
+       color: #cc0066;
        margin: auto;
-       padding-left: 10%;
-      
+       /* padding-left: 36%;
+       padding-bottom: 5%; */
+       
+   }
+   .fa-code{
+       color: #cc0066;
+       /* margin: auto;
+       padding-left: 36%;
+       margin: 0;
+       padding-bottom: 5%; */
+       
+   }
+   .fa-flag{
+       color: #cc0066;
+       /* margin: auto;
+       padding-left: 36%;
+       margin: 0;
+       padding-bottom: 5%; */
+       
+   }
+   .feat{
+       /* padding-bottom: 10%;
+       padding-top: 5%;
+      padding-left: 0; */
+      text-align: center;
+      padding: 5%;
        
    }
    
@@ -30,7 +86,7 @@
    
    }
    .buti{
-   padding-left: 35%;
+   padding-left: 25%;
    }
    
    /* navBar */
