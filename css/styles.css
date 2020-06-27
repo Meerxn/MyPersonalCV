@@ -38,6 +38,13 @@
    h3:hover{
        color: #cc0066;
    }
+   .maini{
+       padding-right: 3%;
+   }
+   .maini:hover{
+       color: black
+   }
+   
    .icon{
       padding-bottom: 2rem;
    }
@@ -86,7 +93,8 @@
    
    }
    .buti{
-   padding-left: 25%;
+   padding-left: 30%;
+   
    }
    
    /* navBar */
