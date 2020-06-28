@@ -1,134 +1,193 @@
+html {
+    scroll-behavior: smooth;
+  }
 #title{
+ background-color: #cc0066;
+ color: white;
+}
+#features{
+    padding: 7% 15%;
+
+    
+    
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    align-items: center;
     background-color: #cc0066;
     color: white;
-   }
-   #features{
-       padding: 7% 15%
-   
-       
-       
-   }
-   
-   h1{
-       font-family: 'Montserrat', sans-serif;
-       size: 3rem;
-       line-height: 1.5; 
-       color: white;
-       padding-left: 27%;
-       padding-top: 25%;
-       margin: auto;
-   
-   
-   }
-   p{
-       font-family: "Montserrat";
-       color: #8f8f8f;
-       /* text-align: center; */
-     
-   }
-   h3{
-       font-size: 2rem;
-       font-family: "Montserrat";
-       font-weight: bold;
-       /* text-align: center; */
-   }
-   body{
-       
-   }
-   a { color: inherit; } 
-   h3:hover{
-       color: #cc0066;
-   }
-   .maini{
-       padding-right: 3%;
-   }
-   .maini:hover{
-       color: black
-   }
-   
-   .icon{
-      padding-bottom: 2rem;
-   }
-   .icon:hover{
-       color: black;
-   }
-   .column{
-       
-       /* padding-bottom: 12%;
-       margin-left: 0; */
-   }
-   .fa-laptop-code{
-       color: #cc0066;
-       margin: auto;
-       /* padding-left: 36%;
-       padding-bottom: 5%; */
-       
-   }
-   .fa-code{
-       color: #cc0066;
-       /* margin: auto;
-       padding-left: 36%;
-       margin: 0;
-       padding-bottom: 5%; */
-       
-   }
-   .fa-flag{
-       color: #cc0066;
-       /* margin: auto;
-       padding-left: 36%;
-       margin: 0;
-       padding-bottom: 5%; */
-       
-   }
-   .feat{
-       /* padding-bottom: 10%;
-       padding-top: 5%;
-      padding-left: 0; */
-      text-align: center;
-      padding: 5%;
-       
-   }
-   
-   .container-fluid{
-    padding: 2% 13%;
-   
-   }
-   .buti{
-   padding-left: 30%;
-   
-   }
-   
-   /* navBar */
-   .navbar{
-   
-     
-   }
-   
-   .navbar-brand{
-       font-family: "Ubuntu";
-       font-size: 1.5rem;
-       font-weight: bold;
-       color: #cc0066;
-   
-     
-   }
-   .nav-item{
-       padding: 0 10px;
-      
-   }
-   .nav-link{
-       font-size: 1.2rem;
-       
-       
-   }
-   
-   .bg-pink{
-       background-color: #cc0066;
-   }
-   
-   
-   /* title image */
-   .phone{
-       transform: rotate(5deg);
     
-   }
+}
+#press{
+    
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5; 
+    color: white;
+    padding-left: 27%;
+    padding-top: 12%;
+    margin: auto;
+
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+   
+}
+p{
+    font-family: "Montserrat";
+    color: #8f8f8f;
+    /* text-align: center; */
+  
+}
+h3{
+    font-size: 2rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+    /* text-align: center; */
+}
+body{
+    
+}
+a { 
+    color: inherit;
+ } 
+/* h3:hover{
+    color: #cc0066;
+} */
+.about{
+  padding: 5% 15%;  
+}
+.cardText{
+  padding-bottom: 4%;
+  font-size: 3rem;
+}
+.align{
+    padding-top: 5%;
+    text-align: center;
+    color: #cc0066;
+}
+.align2{
+    padding-top: 5%;
+    padding-left: 36%;
+    padding-bottom: 0;
+ 
+}
+
+.maini{
+    padding-right: 3%;
+}
+.maini:hover{
+    color: black
+}
+.slidesImg{
+    width: 25%;
+   
+    margin: 20px;
+}
+.pressImg{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.imgInc{
+    width: 30%;
+}
+
+.icon{
+   padding-bottom: 2rem;
+}
+.icon:hover{
+    color: black;
+}
+.column{
+    
+    /* padding-bottom: 12%;
+    margin-left: 0; */
+}
+.fa-lightbulb{
+    color: black;
+}
+.fa-laptop-code{
+    color: #cc0066;
+    margin: auto;
+    /* padding-left: 36%;
+    padding-bottom: 5%; */
+    
+}
+.fa-code{
+    color: #cc0066;
+    /* margin: auto;
+    padding-left: 36%;
+    margin: 0;
+    padding-bottom: 5%; */
+    
+}
+.fa-flag{
+    color: #cc0066;
+    /* margin: auto;
+    padding-left: 36%;
+    margin: 0;
+    padding-bottom: 5%; */
+    
+}
+.feat{
+    /* padding-bottom: 10%;
+    padding-top: 5%;
+   padding-left: 0; */
+   text-align: center;
+   padding: 5%;
+    
+}
+
+.container-fluid{
+ padding: 2% 13%;
+
+}
+.buti{
+padding-left: 30%;
+
+}
+
+/* navBar */
+.navbar{
+
+  
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #cc0066;
+
+  
+}
+.nav-item{
+    padding: 0 10px;
+   
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+    
+}
+
+.bg-pink{
+    background-color: #cc0066;
+}
+
+
+/* title image */
+.phone{
+    transform: rotate(5deg);
+ 
+}
